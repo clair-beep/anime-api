@@ -1,6 +1,9 @@
 {
   "name": "anime-api",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.5.0"
+  },
   "description": "This is an anime ercomendation based oh the review made by reddit",
   "main": "server.js",
   "scripts": {
