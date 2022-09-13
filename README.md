@@ -1,14 +1,13 @@
-## Table of contents 👀
+## Table of contents 🕵️
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Blog](#blog)
 * [Setup](#setup)
 
 
 ### General info
 The anime REST API was made to show some love for the anime recomendations that are all gathered here:  https://www.reddit.com/r/anime/wiki/recommendations/
 
-#### The ANIME Object 
+#### The ANIME Object ⛓️
 | Properties | Description | Type  |
 |:----------- |:---------------|:--------|
 |title| the anime title | String| 
@@ -21,7 +20,7 @@ The anime REST API was made to show some love for the anime recomendations that 
 |image| an image url | String |
 |comments|any comments posted about the tea |Array of String | 
 
-#### Routes ⚡
+#### Routes 🛸
 | Routes | HTTP Methods| Description
 |:------- |:---------------|:--------------
 | /anime      | GET                  | Displays all anime recomendations
@@ -47,7 +46,7 @@ Project is created with:
 * Multer version: 1.4.5
 * MongoDB Atlas
 
-#### 👉 Deployed at: 
+#### 🚀 Deployed at: 
 > Note: render can load the page quite slow p please wait at least 30s. Once it loads, it should run smoothly. Please let me know if you find any bugs or errors
 
 
