@@ -14,8 +14,8 @@ The anime REST API was made to show some love for the anime recomendations that 
 |genre| the genre of the anime | String | 
 |synopsis|words associated with the description of the anime  |String | 
 |aired|date of the first release | String| 
-|status|says if the anime is still running | Number | 
-|source| where does the adaptation comes from | Number | 
+|status|says if the anime is still running | String | 
+|source| where does the adaptation comes from | String | 
 |duration| apox time per episode | String | 
 |image| an image url | String |
 |comments|any comments posted about the anime that was shared |Array of String | 
