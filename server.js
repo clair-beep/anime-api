@@ -4,6 +4,7 @@ const app = express();
 
 const connectDB = require('./config/data-base')
 
+
 const helmet = require('helmet');
 
 const routes = require('./routes/anime'); 
@@ -35,6 +36,6 @@ app.route('/')
 
 
 
-const listener = app.listen(process.env.PORT || 4000, () => {
+const listener = app.listen(process.env.PORT || 5000, () => {
     console.log('App is active on port ' + listener.address().port)
 })
