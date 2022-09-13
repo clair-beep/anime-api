@@ -11,14 +11,14 @@ The anime REST API was made to show some love for the anime recomendations that 
 | Properties | Description | Type  |
 |:----------- |:---------------|:--------|
 |title| the anime title | String| 
-|genre| the description | String | 
-|synopsis|words associated with the tea  |String | 
-|aired|country where the tea is first made | String| 
-|status|time to brew in minutes | Number | 
-|source|best temperature in Celsius to drink | Number | 
-|duration| the description | String | 
+|genre| the genre of the anime | String | 
+|synopsis|words associated with the description of the anime  |String | 
+|aired|date of the first release | String| 
+|status|says if the anime is still running | Number | 
+|source| where does the adaptation comes from | Number | 
+|duration| apox time per episode | String | 
 |image| an image url | String |
-|comments|any comments posted about the tea |Array of String | 
+|comments|any comments posted about the anime that was shared |Array of String | 
 
 #### Routes 🛸
 | Routes | HTTP Methods| Description
