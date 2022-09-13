@@ -4,7 +4,7 @@
   "description": "This is an anime ercomendation based oh the review made by reddit",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "clair m.",
   "license": "ISC ",
