@@ -46,7 +46,7 @@ Project is created with:
 * Multer version: 1.4.5
 * MongoDB Atlas
 
-#### 🚀 Deployed at: 
+#### 🚀 Deployed at: https://anime-api-gq0a.onrender.com/
 > Note: render can load the page quite slow p please wait at least 30s. Once it loads, it should run smoothly. Please let me know if you find any bugs or errors
 
 
