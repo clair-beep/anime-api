@@ -98,3 +98,8 @@ body {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+  table th:nth-child(3), table th:nth-child(4), table th:nth-child(6){
+    padding: 0 2rem;
+  }
+
