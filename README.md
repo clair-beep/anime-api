@@ -62,7 +62,9 @@ Then execute in your terminal:
 $ npm install
 $ npm start or node server.js
 ```
+### Accomplished:
 
+- Populate database ✔️
+- Make a simple cilent side face ✔️
 ### Next Steps
-- Populate database (pending to)
-- Make a simple cilent side face (pending to)
+- Create a search bar by genre
