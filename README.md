@@ -77,4 +77,4 @@ $ npm start or node server.js
 ### Next Steps
 - Create authentication for admins and users
 - Enable a cloud for the images used 
-- Create more thoughtful documentation that could come in hand for users 
+- Create more thoughtful documentation
