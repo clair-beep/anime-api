@@ -23,13 +23,20 @@ The anime REST API was made to show some love for the anime recomendations that 
 #### Routes 🛸
 | Routes | HTTP Methods| Description
 |:------- |:---------------|:--------------
-| /anime      | GET                  | Displays all anime recomendations
-| /anime      | POST               | Creates a new anime recomendations
+| /anime      | GET                  | Displays all anime recomendations |JSON data
+| /anime      | POST               | Creates a new anime recomendations |JSON data
 | /anime      | DELETE            | Deletes all anime
-|/anime/:title| GET     | Displays a specific anime, given its title
-|/anime/:title| POST  | Adds a comment to a specific anime, given its title
+|/anime/:title| GET     | Displays a specific anime, given its title |JSON data
+|/anime/:title| POST  | Adds a comment to a specific anime, given its title |JSON data
 |/anime/:title| DELETE | Deletes a specific anime, given its title
-	
+
+#### Library 🧭
+| /titles      | GET                  | Displays all anime recomendations with all the
+titles available so you can easily interface with it through the diffent routes available
+
+| /search      | GET                  | allow you to search anime trouh diffent forms, 
+for now only  'genre'is available as a filter
+
 ### Technologies
 Project is created with:
 <p>
@@ -66,5 +73,8 @@ $ npm start or node server.js
 
 - Populate database ✔️
 - Make a simple cilent side face ✔️
+- Create a search bar by genre ✔️
 ### Next Steps
-- Create a search bar by genre
+- Create authentication for admins and users
+- Enable a cloud for the images used 
+- Create more thoughtful documentation that could come in hand for users 
